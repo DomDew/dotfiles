@@ -38,6 +38,12 @@ set formatoptions+=r
 
 "}}}
 
+" Folding "{{{
+" ---------------------------------------------------------------------
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
+"}}}
+
 " Highlights "{{{
 " ---------------------------------------------------------------------
 set cursorline

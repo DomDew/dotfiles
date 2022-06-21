@@ -1,6 +1,14 @@
 lua << EOF
 local nvim_tree = require"nvim-tree"
-nvim_tree.setup()
+nvim_tree.setup({
+	view = {
+		mappings = {
+			list = {
+				{ key = "<C-m>", action = "cd"}
+			}	
+		}
+	}
+})
 EOF
 
 nnoremap <silent> <S-t> <Cmd>NvimTreeToggle<CR> 
