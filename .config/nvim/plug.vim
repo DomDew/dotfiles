@@ -1,4 +1,4 @@
-call plug#begin()
+call plug#begin('~/.config/nvim/plugged')
 
 Plug 'Mofiqul/dracula.nvim'
 
@@ -20,6 +20,9 @@ if has("nvim")
 	Plug 'L3MON4D3/LuaSnip'
 	Plug 'saadparwaiz1/cmp_luasnip'
 	Plug 'onsails/lspkind-nvim'
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim'
+	Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 endif
 
 call plug#end()
