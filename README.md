@@ -2,11 +2,11 @@
 
 ## Requirements
 
-** NEOVIM **
+**NEOVIM**
 * [neovim](https://github.com/neovim/neovim) > 0.7.0
 * [vim-plug](https://github.com/junegunn/vim-plug)
 
-** TERMINAL **
+**TERMINAL**
 * [oh-my-zsh](https://ohmyz.sh/)
 
 ## Features
@@ -42,12 +42,12 @@ Nvim configuration follows the following file structure:
 ```
 config
 └───nvim
-    │   init.vim 			- base configuration and imports
-    │   macos.vim			- mac specific config
-    │		maps.vim			- global keybindings		
-		│		plug.vim			- imports of plugins
-		│	
+    │   init.vim 	  - base config
+    │   macos.vim	  - mac specific config
+    │	  maps.vim    - keybinds
+    │	  plug.vim    - imports of plugins
+    │
     └───after
-    		└───plugin 		- contains a config file with setup functions and keybindings for each plugin
+        └───plugin  - contains a config file with setup functions and keybindings for each plugin
    
 ```
