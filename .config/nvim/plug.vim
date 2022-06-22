@@ -23,6 +23,10 @@ if has("nvim")
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'nvim-telescope/telescope.nvim'
 	Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+	Plug 'windwp/nvim-autopairs'
+  Plug 'windwp/nvim-ts-autotag'
+	Plug 'nvim-lualine/lualine.nvim'
+	Plug 'lukas-reineke/lsp-format.nvim'
 endif
 
 call plug#end()
