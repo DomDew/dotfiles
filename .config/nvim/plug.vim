@@ -27,6 +27,7 @@ if has("nvim")
   Plug 'windwp/nvim-ts-autotag'
 	Plug 'nvim-lualine/lualine.nvim'
 	Plug 'lukas-reineke/lsp-format.nvim'
+	Plug 'romgrk/barbar.nvim'
 endif
 
 call plug#end()

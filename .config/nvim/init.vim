@@ -7,6 +7,9 @@ endif
 " Suppress appending <PasteStart> and <PasteEnd> when pasting
 set t_BE=
 
+" Enable Mouse mode
+set mouse+=a
+
 set nosc noru nosm
 " Don't redraw while executing macros (good performance config)
 set lazyredraw
