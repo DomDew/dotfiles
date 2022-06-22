@@ -6,7 +6,6 @@ if has("nvim")
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'williamboman/nvim-lsp-installer'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-  Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
   Plug 'kyazdani42/nvim-web-devicons' " optional, for file icons
   Plug 'kyazdani42/nvim-tree.lua'
   Plug 'neovim/nvim-lspconfig'
@@ -24,8 +23,8 @@ if has("nvim")
   Plug 'windwp/nvim-autopairs'
   Plug 'windwp/nvim-ts-autotag'
   Plug 'nvim-lualine/lualine.nvim'
-  Plug 'lukas-reineke/lsp-format.nvim'
   Plug 'romgrk/barbar.nvim'
+  Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
 endif
 
 call plug#end()

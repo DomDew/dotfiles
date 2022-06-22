@@ -23,11 +23,10 @@ autocompletion, tabs, lsps - They want it, you got it.
 Lift your neovim to the next level with the magic of these wonderful plugins:
 
 * [alpha-nvim](https://github.com/goolord/alpha-nvim) - that beautiful start screen you keep hearing about
-* [cmp](https://github.com/hrsh7th/nvim-cmp) - tab completion yissss
+* [cmp](https://github.com/hrsh7th/nvim-cmp) - auto completion yissss
 * [telescope](https://github.com/nvim-telescope/telescope.nvim) - fuzzily find files faster
 * [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - syntax highlight creme de la creme
 * [lspsaga](https://github.com/glepnir/lspsaga.nvim) - beautiful lsp tooltip
-* [lsp-format](https://github.com/lukas-reineke/lsp-format.nvim) - format on save
 * [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) - browse your files like the average IDE pleb
 * [autopairs](https://github.com/windwp/nvim-autopairs) - for autopairing brackets
 * [ts-autotag](https://github.com/windwp/nvim-ts-autotag) - for autoclosing and renaming of html tags
