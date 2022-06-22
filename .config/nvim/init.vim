@@ -24,6 +24,7 @@ set smarttab
 filetype plugin indent on
 set shiftwidth=2
 set tabstop=2
+set expandtab
 set number
 set ai "Auto indent
 set si "Smart indent
