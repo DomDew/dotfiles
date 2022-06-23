@@ -3,6 +3,10 @@ if has('nvim')
   set inccommand=split
 endif
 
+" Rebind leader key
+let mapleader = ","
+set timeoutlen=350
+
 " Suppress appending <PasteStart> and <PasteEnd> when pasting
 set t_BE=
 
