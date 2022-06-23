@@ -25,6 +25,7 @@ if has("nvim")
   Plug 'nvim-lualine/lualine.nvim'
   Plug 'romgrk/barbar.nvim'
   Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
+  Plug 'mattn/emmet-vim'
 endif
 
 call plug#end()

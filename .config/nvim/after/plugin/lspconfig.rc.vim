@@ -90,7 +90,7 @@ nvim_lsp.tsserver.setup {
 
 nvim_lsp.diagnosticls.setup {
   on_attach = on_attach,
-  filetypes = { 'javascript', 'javascriptreact', 'json', 'typescript', 'typescriptreact', 'css', 'less', 'scss', 'pandoc' },
+  filetypes = { 'javascript', 'javascriptreact', 'json', 'typescript', 'typescriptreact', 'css', 'less', 'scss', 'pandoc', 'html' },
   init_options = {
     linters = {
       eslint = {
@@ -112,7 +112,7 @@ nvim_lsp.diagnosticls.setup {
           [2] = 'error',
           [1] = 'warning'
         }
-      },
+      }
     },
     filetypes = {
       javascript = 'eslint',
@@ -132,9 +132,10 @@ nvim_lsp.diagnosticls.setup {
         rootPatterns = { '.git' },
         -- requiredFiles: { 'prettier.config.js' },
         args = { '--stdin', '--stdin-filepath', '%filename' }
-      }
+      },
     },
     formatFiletypes = {
+      html = 'prettier',
       css = 'prettier',
       javascript = 'prettier',
       javascriptreact = 'prettier',
