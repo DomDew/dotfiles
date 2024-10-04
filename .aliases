@@ -7,3 +7,13 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 alias ll='ls -la'
 alias vi='nvim'
+
+kill-port() { 
+  if [[ $# -eq 0 ]] ; then
+    echo 'Please provide a port number'
+    exit 0
+  fi
+
+  pid=$(lsof -i:$1 -t); kill -TERM $pid || kill -KILL $pid
+}
+
