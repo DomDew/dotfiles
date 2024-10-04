@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+shift+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
+    }
+  },
+  {
+    "key": "cmd+shift+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "statiolake.vscode-rustfmt"
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.tabSize": 2,
+  "extensions.ignoreRecommendations": true,
+  "github.copilot.enable": {
+    "*": false,
+    "markdown": false,
+    "plaintext": false,
+    "scminput": false
+  },
+  "markdown.extension.toc.omittedFromToc": {
+    "README.md": ["# Introduction"]
+  },
+  "nxConsole.showNodeVersionOnStartup": false,
+  "prettier.singleQuote": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "tailwindCSS.classAttributes": ["className", ".*Classes", "class"],
+  "tailwindCSS.experimental.classRegex": [
+    ["Classes \\=([^;]*);", "'([^']*)'"],
+    ["Classes \\=([^;]*);", "\"([^\"]*)\""],
+    ["Classes \\=([^;]*);", "\\`([^\\`]*)\\`"],
+    ["theme \\=([^;]*);", "'([^']*)'"],
+    ["theme \\=([^;]*);", "\"([^\"]*)\""],
+    ["theme \\=([^;]*);", "\\`([^\\`]*)\\`"],
+    ["classNames\\(([^)]*)\\)", "'([^']*)'"]
+  ],
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.inheritEnv": true,
+  "window.zoomLevel": 1,
+  "workbench.editor.enablePreview": false,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "redhat.telemetry.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.colorTheme": "Dracula Theme"
+}
